@@ -1,0 +1,16 @@
+export enum Operator {
+  gt = ">",
+  gte = ">=",
+  eq = "=",
+  ne = "!=",
+  is = "!!",
+  isNot = "!",
+  lt = "<",
+  lte = "<=",
+  like = "~",
+  notLike = "!~",
+  between = "><",
+  notBetween = ">!<",
+  in = "<>",
+  notIn = "<!>",
+}
