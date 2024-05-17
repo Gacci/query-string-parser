@@ -1,20 +1,36 @@
 {
-  "name": "@db/query-parser",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "noch-query-parser",
+  "version": "1.0.2",
+  "description": "The Parser class is a robust utility designed to convert query strings into structured objects of type FilterQuery.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --exec ts-node src/app.js"
+    "start": "nodemon --exec ts-node src/app.js",
+    "prettier": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css}\""
   },
-  "author": "",
+  "author": "Jonathan Justo",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.12.11",
+    "depcheck": "^1.4.7",
     "eslint": "^9.2.0",
     "nodemon": "^3.1.0",
     "prettier": "3.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gacci/query-string-parser.git"
+  },
+  "keywords": [
+    "url",
+    "query",
+    "parser"
+  ],
+  "bugs": {
+    "url": "https://github.com/Gacci/query-string-parser/issues"
+  },
+  "homepage": "https://github.com/Gacci/query-string-parser#readme"
 }

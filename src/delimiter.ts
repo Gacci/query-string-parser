@@ -1,1 +1,1 @@
-export type Delimiter = "|" | ",";
+export type Delimiter = '|' | ',';
